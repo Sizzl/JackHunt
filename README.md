@@ -19,3 +19,11 @@ ServerPackages=JackHunt
 - Add mutator to spawn collectibles: JackHuntSP.JackHuntSP
 - Decoration support outside of hunting - add mutator: JackHuntSP.Decorations
 
+## Build-related Script(s)
+Simply place the required number of Small, Medium and Large objects around maps meeting the naming convention (e.g., matching AS-\*E.unr or AS-\*J.unr), then run the node.js script with the first argument pointing to the root of your Unreal Tournament installation to generate the required function.
+- Requires node.js compatible UTPackage.js - e.g., [Sizzl/UTPackage.js](https://github.com/Sizzl/UTPackage.js)
+
+Example:
+```
+node Export-HuntingCode.js C:/UnrealTournament
+```
